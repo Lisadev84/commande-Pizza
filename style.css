@@ -1,0 +1,211 @@
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+  html,
+  body,
+  p,
+  ol,
+  ul,
+  li,
+  dl,
+  dt,
+  dd,
+  blockquote,
+  figure,
+  fieldset,
+  legend,
+  textarea,
+  pre,
+  iframe,
+  hr,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  section {
+      margin: 0;
+      padding: 0
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-size: 100%;
+      font-weight: normal
+  }
+
+  ul {
+      list-style: none
+  }
+
+  button,
+  input,
+  select {
+      margin: 0
+  }
+
+  html {
+      box-sizing: border-box
+  }
+
+  *,
+  *::before,
+  *::after {
+      box-sizing: inherit
+  }
+
+  img,
+  video {
+      height: auto;
+      max-width: 100%
+  }
+
+  iframe {
+      border: 0
+  }
+
+
+
+
+  table {
+      border-collapse: collapse;
+      border-spacing: 0
+  }
+
+  td,
+  th {
+      padding: 0
+  }
+
+
+
+  body {
+      font-family: 'Merriweather', serif;
+      font-size: 25px;
+  }
+
+  .fond {
+      position: relative;
+      overflow: hidden;
+  }
+
+  .fond img {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: auto;
+      opacity: 0.3;
+  }
+
+  .page {
+      width: 90%;
+      margin: auto;
+      position: relative;
+      z-index: 2;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  h1 {
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 90px;
+
+  }
+
+
+  li {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+
+  }
+
+  .composition {
+      padding-right: 10px;
+
+  }
+
+  .order {
+      padding-left: 10px;
+  }
+
+  .price {
+      padding-right: 10px;
+  }
+
+  .quantity {
+      width: 30px;
+      padding: 5px;
+      display: inline-block;
+      text-align: center;
+  }
+
+  .total_line {
+      padding: 20px;
+      width: 70px;
+      display: inline-block;
+      text-align: right;
+      line-height: 10px;
+  }
+
+  button {
+      width: 40px;
+      height: 40px;
+      background-color: grey;
+      font-size: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      border-radius: 2px;
+
+
+  }
+
+  button:hover {
+      background-color: rgb(190, 214, 235);
+
+  }
+
+  .total {
+      display: flex;
+      justify-content: flex-end;
+      align-items: baseline;
+      margin-top: 40px;
+      color: black;
+
+  }
+
+  .total1 {
+      padding-right: 70px;
+  }
+
+  .total2 {
+      padding-right: 15px;
+
+  }
+
+  .total3,
+  .total2 {
+      background-color: rgb(138, 133, 127);
+
+  }
+
+  .payment {
+      visibility: hidden;
+  }
+
+  .show {
+      visibility: visible;
+  }
